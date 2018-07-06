@@ -1,0 +1,221 @@
+/*banner_tit*/
+p{
+    margin: 0;
+}
+.cont_tit{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    height: 480px;
+    top: 0;
+}
+/*支持与文档*/
+.cont_product_tips{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    padding-top: 80px;
+    top: 480px;
+    background-color: #f8f8f8;
+}
+.tips_tit p:first-child{
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+    text-align: center;
+    margin:0 0 0 0px !important;
+}
+.tips_tit p:last-child{
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
+    text-align: center;
+}
+.service_cont{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 60px;
+}
+.service_cont ul{
+    box-sizing: border-box;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 1282px;
+    height: 80px;
+    left: 50%;
+    margin-left: -641px;
+}
+.service_cont ul li{
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 100%;
+    padding-left: 40px;
+    border-right: solid 1px #999;
+}
+.service_li_img{
+    display: inline-block;
+    margin-top: 7px;
+    width: 70px;
+    height: 64px;
+}
+.service_li_text{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: 78px;
+    padding-top: 14px;
+    padding-left: 10px;
+}
+.service_li_text p:first-child{
+    font-size: 16px;
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+}
+.service_li_text p:first-child:hover{
+    color: #41d1aa;
+}
+.service_li_text p:last-child{
+    font-size: 16px;
+    color: #999;
+    font-family: "Microsoft YaHei UI";
+    margin-top: 10px;
+}
+/*方案简介*/
+.cont_product_summarize{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 720px;
+    padding-top: 50px;
+    top: 840px;
+    border: solid 1px  red;
+    background-color: #fff;
+}
+.summarize_tit p:first-child{
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+    text-align: center;
+    margin:0 0 0 0px !important;
+}
+.summarize_tit p:last-child{
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
+    text-align: center;
+}
+.summarize_cont{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 70px;
+}
+.summarize_cont ul{
+    box-sizing: border-box;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 1282px;
+    height: 450px;
+    left: 50%;
+    margin-left: -641px;
+}
+.summarize_cont ul li{
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 6px 6px 13px #ccc;
+    width: 286px;
+    height: 100%;
+    margin-left: 24px;
+}
+.summarize_circle{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:#666 ;
+}
+.summarize_down p{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+}
+.summarize_down p:first-child{
+    font-size: 16px !important;
+    margin-top: 30px !important;
+    margin-bottom: 4px;
+    color: #333;
+}
+.summarize_down p:first-child:hover{
+    color: #41d1aa;
+}
+/*服务案例*/
+.cont_product_function{
+    position: absolute;
+    width: 100%;
+    height: 570px;
+    top: 1560px;
+    background-color: #f8f8f8;
+    padding-top: 70px;
+}
+.cont_product_function p:first-child{
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+    text-align: center;
+    margin:0 0 0 0px !important;
+}
+.cont_product_function p:last-child{
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
+    text-align: center;
+}
+.case_cont{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.case_cont:last-child{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin-top: 252px;
+}
+.case_cont ul{
+    width: 1058px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    margin-left: -529px;
+    height: 145px;
+}
+.case_cont ul li{
+    display: inline-block;
+    float: left;
+    width: 245px;
+    height: 145px;
+    margin-left: 26px;
+}
+.case_cont ul li div{
+    width: 245px;
+    height: 145px;
+    text-align: center;
+}
+.case_cont ul li div img{
+    display: inline-block;
+    margin-top: 24px;
+}
+.case_cont ul li div p{
+    margin-top: 16px;
+    color: #333!important;
+}
