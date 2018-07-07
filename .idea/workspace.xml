@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290ecf15-7cd4-4e43-ad3b-ace470dbcfe6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Public/img/service/map.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Public/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Admin/index/index.html" afterPath="$PROJECT_DIR$/Admin/index/index.html" />
       <change beforePath="$PROJECT_DIR$/Admin/service_and_support/service.css" afterPath="$PROJECT_DIR$/Admin/service_and_support/service.css" />
-      <change beforePath="$PROJECT_DIR$/Admin/service_and_support/service.html" afterPath="$PROJECT_DIR$/Admin/service_and_support/service.html" />
       <change beforePath="$PROJECT_DIR$/Admin/service_and_support/service.js" afterPath="$PROJECT_DIR$/Admin/service_and_support/service.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,8 +45,8 @@
                 <file leaf-file-name="service.css" pinned="false" current-in-tab="true">
                   <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.css">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="1449">
-                        <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+                      <state relative-caret-position="546">
+                        <caret line="157" column="1" lean-forward="false" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
                         <folding>
                           <element signature="e#527#653#0" expanded="false" />
                         </folding>
@@ -67,8 +61,8 @@
                 <file leaf-file-name="service.js" pinned="false" current-in-tab="true">
                   <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.js">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="301">
-                        <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+                      <state relative-caret-position="172">
+                        <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
                         <folding />
                       </state>
                     </provider>
@@ -174,6 +168,7 @@
       <find>summarize_cont</find>
       <find>cloud_tit</find>
       <find>connect_us</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,8 +189,8 @@
         <option value="$PROJECT_DIR$/Public/js/index.js" />
         <option value="$PROJECT_DIR$/Admin/index/index.html" />
         <option value="$PROJECT_DIR$/Admin/service_and_support/service.html" />
-        <option value="$PROJECT_DIR$/Admin/service_and_support/service.css" />
         <option value="$PROJECT_DIR$/Admin/service_and_support/service.js" />
+        <option value="$PROJECT_DIR$/Admin/service_and_support/service.css" />
       </list>
     </option>
   </component>
@@ -344,12 +339,12 @@
       <workItem from="1530492743775" duration="28664000" />
       <workItem from="1530580956769" duration="23273000" />
       <workItem from="1530666386009" duration="24973000" />
-      <workItem from="1530753271703" duration="54602000" />
+      <workItem from="1530753271703" duration="56657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150308000" />
+    <option name="totallyTimeSpent" value="152363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
@@ -817,16 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="147" column="17" lean-forward="false" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-          <folding>
-            <element signature="e#527#653#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-430">
@@ -851,9 +836,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="172">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/service_and_support/service.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="157" column="1" lean-forward="false" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
+          <folding>
+            <element signature="e#527#653#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
