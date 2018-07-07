@@ -1,0 +1,135 @@
+/*banner_tit*/
+p{
+    margin: 0;
+}
+.cont_tit{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    height: 480px;
+    top: 0;
+}
+/*新闻咨询*/
+.cont_news{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    top: 480px;
+}
+.news_detail{
+    width: 1180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -590px;
+}
+.detail_tit{
+    width: 100%;
+    height: 20px;
+    margin-top: 38px;
+    margin-bottom: 50px;
+}
+.detail_tit span:first-child{
+    text-align: left;
+    display: inline-block;
+    width: 50px;
+    color: #999;
+    border-right: solid 1px #999;
+}
+.detail_tit span{
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    color: #999;
+    border-right: solid 1px #999;
+}
+.detail_tit span:last-child{
+    border-right: none;
+}
+.news_example{
+    width: 1182px;
+    position: absolute;
+    top: 148px;
+    left: 50%;
+    margin-left: -590px;
+}
+.news_example ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.news_example ul li{
+    width: 100%;
+    height: 200px;
+    border: solid 1px red;
+    box-sizing: border-box;
+}
+.news_example ul li div.examp_img{
+    float: left;
+    width: 270px;
+    height: 100%;
+    display: inline-block;
+}
+.news_example ul li div.examp_content{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 890px;
+    height: 100%;
+    display: inline-block;
+    border: solid 1px gray;
+}
+.examp_content div:first-child{
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 100%;
+}
+.examp_content div:first-child p:first-child{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #41d1aa;
+    font-family: "Arial Rounded MT Bold";
+}
+.examp_content div:first-child p:last-child{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    font-family: "Microsoft YaHei UI Light";
+}
+.examp_content div:last-child{
+    position: absolute;
+    left: 80px;
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+}
+.examp_content div:last-child p:first-child{
+    font-size: 16px;
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+    padding-bottom: 30px;
+}
+/*footer自定义距高*/
+.connect_us{
+    box-sizing: border-box;
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    top: 3040px!important;
+    background-color: #f8f8f8;
+}
+.beian{
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    top: 3510px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    line-height: 56px;
+}
