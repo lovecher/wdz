@@ -131,6 +131,11 @@ p{
     width: 286px;
     height: 100%;
     margin-left: 24px;
+    transition:border-bottom 0.8s , transform 0.6s;
+}
+.summarize_cont ul li:hover{
+    border-bottom: solid 6px #41d1aa;
+    transform: translate3d(0,-20px,0);
 }
 .summarize_circle{
     width: 8px;
@@ -140,7 +145,7 @@ p{
     background-color:#666 ;
 }
 .summarize_down p{
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: 10px;
     font-size: 14px;
     color: #666;
@@ -223,11 +228,10 @@ p{
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    height: 2100px;
+    height: 910px;
     padding-top: 50px;
     top: 2130px;
     background-color: #fff;
-    border:solid 1px red;
 }
 .advantage_tit p:first-child{
     font-size: 30px;
@@ -243,6 +247,217 @@ p{
     font-family: "Source Code Pro";
     text-align: center;
 }
+.advantage_cont{
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 60px;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+}
+.advantage_img{
+    box-sizing: border-box;
+    float: left;
+    width: 600px;
+    display: inline-block;
+    height: 690px;
+    background-image: url("../../Public/img/service/map.png");
+    background-repeat: no-repeat;
+}
+@keyframes warn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0.0;
+    }
+}
+@-webkit-keyframes warn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    75% {
+        -webkit-transform: scale(0.5);
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        opacity: 0.0;
+    }
+}
+.container {
+    position: relative;
+    margin: 100px 100px;
+    width: 60px;
+    height: 60px;
+}
+/* 保持大小不变的小圆圈（绿色）  */
+.dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 25px;
+    top: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 2px solid #41d1aa;
+    background-color: #41d1aa;
+    border-radius: 50%;
+    z-index: 2;
+}
+/* 产生动画（向外扩散变大）的圆圈  */
+.pulse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 13px;
+    top: 13px;
+    border: 2px solid #41d1aa;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius:50%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-animation: warn 2s linear;
+    -moz-animation: warn 2s linear;
+    animation: warn 2s linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+.pulse1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 1px;
+    border: 4px solid #41d1aa;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-animation: warn 3s linear;
+    -moz-animation: warn 3s linear;
+    animation: warn 3s linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+.pulse2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: -14px;
+    top: -14px;
+    border: 4px solid #41d1aa;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-animation: warn 3s linear;
+    -moz-animation: warn 3s linear;
+    animation: warn 3s linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+.k_map1{
+    position: absolute;
+    left: 342px;
+    top: 192px;
+}
+.k_map2{
+    position: absolute;
+    left: 354px;
+    top: 52px;
+}
+.k_map3{
+    position: absolute;
+    left: 348px;
+    top: 98px;
+}
+.k_map4{
+    position: absolute;
+    left: 354px;
+    top: 117px;
+}
+.k_map5{
+    position: absolute;
+    left: 268px;
+    top: 148px;
+}
+.k_map6{
+    position: absolute;
+    left: 314px;
+    top: 110px;
+}
+.k_map7{
+    position: absolute;
+    left: 356px;
+    top: 170px;
+}
+.k_map8{
+    position: absolute;
+    left: 322px;
+    top: 170px;
+}
+.k_map9{
+    position: absolute;
+    left: 334px;
+    top: 245px;
+}
+
+.advantage_data{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 690px;
+    width: 598px;
+    display: inline-block;
+    position: relative;
+}
+.advantage_data ul{
+    position: absolute;
+    margin: 0 0 0 0 ;
+    padding: 0;
+    width: 400px;
+    right: 0;
+}
+.advantage_data ul li span:first-child{
+    margin-top: 60px;
+    display: inline-block;
+    min-width: 58px;
+    font-size: 40px;
+    color: #41d1aa;
+}
+.advantage_data ul li span:last-child{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #41d1aa;
+}
+.adv_hengxian{
+    width: 58px;
+    margin-top: 10px;
+    border-top: solid 2px #666;
+}
+.adv_distri_data{
+    display: inline-block;
+    margin-top: 14px;
+    color: #333;
+    font-size: 14px;
+}
 
 /*footer自定义距高*/
 .connect_us{
@@ -250,6 +465,16 @@ p{
     width: 100%;
     height: 470px;
     position: absolute;
-    top: 4230px!important;
+    top: 3040px!important;
     background-color: #f8f8f8;
+}
+.beian{
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    top: 3510px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    line-height: 56px;
 }
