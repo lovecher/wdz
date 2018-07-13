@@ -1,0 +1,80 @@
+/*banner_tit*/
+p{
+    margin: 0;
+}
+.cont_tit{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    height: 480px;
+    top: 0;
+}
+.news_test{
+    width: 1180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -590px;
+    top: 100px;
+}
+.cont_news{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    top: 480px;
+}
+.contact_us{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 260px;
+    margin-top: 58px;
+    border: solid 1px red;
+}
+.posi_us{
+    position: absolute;
+    width: 1180px;
+    left: 50%;
+    margin-left: -690px;
+    border: solid 1px blue;
+}
+.tit_cont p{
+    text-align: center;
+}
+.tit_cont p:first-child{
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+}
+.tit_cont p:nth-child(2){
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
+}
+.tit_cont p:last-child{
+    margin-left: 178px;
+    max-width: 824px;
+    font-size: 14px;
+    color: #999;
+    line-height: 1.8;
+}
+/*footer自定义距高*/
+.connect_us{
+    box-sizing: border-box;
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    top: 1900px!important;
+    background-color: #f8f8f8;
+}
+.beian{
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    position: absolute;
+    top: 2370px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    line-height: 56px;
+}
