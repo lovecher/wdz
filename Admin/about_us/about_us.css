@@ -23,11 +23,12 @@ p{
     height: 360px;
     top: 480px;
 }
-.contact_us{
+.about_us{
     box-sizing: border-box;
     position: relative;
     width: 100%;
     margin-top: 58px;
+    height: 400px;
 }
 .posi_us{
     position: absolute;
@@ -57,58 +58,77 @@ p{
     color: #333;
     line-height: 1.8;
 }
-.contact_img{
-    width: 100%;
-    height: 200px;
+/*数据详情*/
+.detail_data{
     box-sizing: border-box;
-    margin-top: 138px;
+    width: 1180px;
+    height: 164px;
+    z-index: 99;
+    border-radius: 6px;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    background-color: #fff;
+    margin-left: -590px;
 }
-.img_1,.img_2,.img_3{
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 392px;
+.detail_data ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100%;
-    display: inline-block;
 }
-.img_1 p,.img_2 p,.img_3 p{
-    margin: 10px 0;
-    text-align: center;
-}
-.img_1 p:first-child,.img_2 p:first-child,.img_3 p:first-child{
-    height: 72px;
-}
-.img_1 p:nth-child(2),.img_2 p:nth-child(2),.img_3 p:nth-child(2){
-    font-size: 16px;
-    color: #333333;
-}
-.service{
-    width: 100%;
-    height: 200px;
+.detail_data ul li{
     box-sizing: border-box;
-    padding-top: 80px;
-    border-top: solid 1px #e6e6e6;
-}
-.service div{
-    display: inline-block;
     float: left;
-    width: 586px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    width: 290px;
+    padding-left: 100px;
+    padding-top: 40px;
+    height: 100%;
 }
-.service div p:first-child{
-    font-size: 16px;
-    color: #333333;
-    font-family: "Microsoft YaHei UI";
-    margin-bottom: 40px;
-}
-.service div p{
+.detail_data ul li div:first-child{
+    position: relative;
     text-align: center;
+}
+.detail_data ul li div:first-child span:first-child{
+    display: inline-block;
+    color: #41d1aa;
+    padding-right: 16px;
+    font-size: 46px;
+    font-family: "Microsoft YaHei UI Light";
+}
+.detail_data ul li div:first-child span:last-child{
+    display: inline-block;
+    color: #41d1aa;
+    position: absolute;
     font-size: 14px;
-    color: #666;
-    margin-top: 10px;
+    font-family: "Microsoft YaHei UI Light";
+}
+.detail_data ul li p{
+    color: #999999;
+    text-align: center;
+}
+/*发展历程*/
+.develop{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    background-color: #f8f8f8;
+}
+.develop_tit p{
+    text-align: center;
+}
+.develop_tit p:first-child{
+    padding-top: 100px;
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+}
+.develop_tit p:last-child {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
 }
 /*footer自定义距高*/
 .connect_us{
@@ -116,7 +136,7 @@ p{
     width: 100%;
     height: 470px;
     position: absolute;
-    top: 1380px!important;
+    top: 2980px!important;
     background-color: #f8f8f8;
 }
 .beian{
@@ -124,7 +144,7 @@ p{
     width: 100%;
     height: 56px;
     position: absolute;
-    top: 1850px;
+    top: 3450px;
     background-color: rgb(51, 51, 51);
     text-align: center;
     line-height: 56px;
