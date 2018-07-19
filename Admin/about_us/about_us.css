@@ -130,13 +130,253 @@ p{
     margin-top: 18px;
     font-family: "Source Code Pro";
 }
+.develop_cont{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1180px;
+    position: absolute;
+    height: 600px;
+    margin-top: 40px;
+    left: 50%;
+    margin-left: -590px;
+}
+.deve_one{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 160px;
+}
+.deve_one div{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.deve_one_circle1{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #41d1aa;
+    top: 4px;
+    left: 580px;
+}
+.deve_one_circle2{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #41d1aa;
+    top: 0;
+    left: 576px;
+}
+.deve_two{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 240px;
+}
+.deve_two div{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.border_left{
+    border-left: solid 1px #41d1aa;
+}
+.border_right{
+    border-right: solid 1px #41d1aa;
+}
+.deve_two_right{
+    position: relative;
+}
+.deve_two_right div{
+    display: inline-block;
+}
+.sm_circle{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1px #41d1aa;
+    top: 111px;
+    left: 160px;
+}
+.deve_two_right div:first-child{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 178px;
+    height: 2px;
+    position: absolute;
+    border-top: solid 1px #41d1aa;
+    top: 50%;
+}
+.deve_two_right div:last-child{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    padding-top: 20px;
+    width: 360px;
+    height: 100%;
+    left: 228px;
+}
+.deve_two_right div:last-child p:first-child{
+    max-width: 320px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+    color: #333;
+}
+.deve_two_right div:last-child p:last-child{
+    margin-top: 20px;
+    max-width: 320px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+    color: #666666;
+    text-indent: 20px;
+}
+.deve_three{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 240px;
+}
+
+.deve_three_left{
+    padding-top: 20px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.left_md_border{
+    box-sizing: border-box;
+    width: 178px!important;
+    height: 2px!important;
+    position: absolute;
+    border-top: solid 1px #41d1aa;
+    top: 50%;
+    right: 50%;
+}
+.deve_three_right{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.three_p{
+    max-width: 320px;
+    display: inline-block;
+}
+.three_p p:first-child{
+    max-width: 320px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+    color: #333;
+}
+.three_p p:last-child{
+    margin-top: 20px;
+    max-width: 320px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+    color: #666666;
+    text-indent: 20px;
+}
+.deve_three_left span{
+    left: 411px;
+}
+/*服务案例*/
+.cont_product_function{
+    position: absolute;
+    width: 100%;
+    height: 570px;
+    top: 2514px;
+    background-color: white;
+    padding-top: 70px;
+}
+.cont_product_function p:first-child{
+    font-size: 30px;
+    color: #333;
+    font-family: "Microsoft YaHei UI Light";
+    text-align: center;
+    margin:0 0 0 0px !important;
+}
+.cont_product_function p:last-child{
+    font-size: 13px;
+    color: #b3b3b3;
+    margin-top: 18px;
+    font-family: "Source Code Pro";
+    text-align: center;
+}
+.case_cont{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
+.case_cont:last-child{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    margin-top: 252px;
+}
+.case_cont ul{
+    width: 1058px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    margin-left: -529px;
+    height: 145px;
+}
+.case_cont ul li{
+    display: inline-block;
+    float: left;
+    width: 245px;
+    height: 145px;
+    margin-left: 26px;
+}
+.case_cont ul li div{
+    width: 245px;
+    height: 145px;
+    text-align: center;
+}
+.case_cont ul li div img{
+    display: inline-block;
+    margin-top: 24px;
+}
+.case_cont ul li div p{
+    margin-top: 16px;
+    color: #333!important;
+}
 /*footer自定义距高*/
 .connect_us{
     box-sizing: border-box;
     width: 100%;
     height: 470px;
     position: absolute;
-    top: 2980px!important;
+    top: 3620px!important;
     background-color: #f8f8f8;
 }
 .beian{
@@ -144,7 +384,7 @@ p{
     width: 100%;
     height: 56px;
     position: absolute;
-    top: 3450px;
+    top: 4090px;
     background-color: rgb(51, 51, 51);
     text-align: center;
     line-height: 56px;
